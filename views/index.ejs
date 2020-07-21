@@ -1,0 +1,118 @@
+<%layout('boilerplate') -%>
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-dark">
+    <div class="container-fluid main-body">
+        <nav class="nav navbar navbar-expand-xl">
+            <a href="#" class="navbar-brand text-white brand-anchor">
+                <h2 class="font-weight-bold brand-id">iamngoni</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon text-white"><i class="fa fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link anchors">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link anchors">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link anchors">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link anchors">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link anchors">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link anchors">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row justify-content-center align-items-center">
+            <a name="about"></a>
+            <div class="col-md-12">
+                <p class="text-white mx-3">Hi, I am a Software Engineering undergraduate at <a class="anchors" href="https://hit.ac.zw">Harare Institute of Technology</a>, with keen interests in mobile application development and more specifically with the Flutter Framework. I have worked on a few <a href="https://github.com/iamngoni" class="anchors">projects</a> in web development, desktop systems development, mobile app development and task automation cli tools. I love developing products and models that empower man.</p>
+                <p class="text-white mx-3">Find me on <a href="https://github.com/iamngoni" class="text-white"><i class="fa fa-github"></i></a>, <a href="https://twitter.com/ngmangudya" class="text-white"><i class="fa fa-twitter"></i></a>, <a href="#" class="text-white"><i class="fa fa-linkedin"></i></a> and <a href="mailto:el.nick.ngonie@gmail.com" class="text-white"><i class="fa fa-envelope"></i></a></p>
+            </div>
+            <a name="blog"></a>
+            <div class="col-md-12">
+                <h3 class="font-weight-bold headings mx-3">Recent Blog Posts</h3>
+                <% posts.forEach(post => { %>
+                    <label for="date" class="text-white mx-3 mr-4">
+                        <script>
+                            function getDate(date){
+                                var dateValue = new Date(date).getDate();
+                                var monthValue = new Date(date).getMonth();
+                                var yearValue = new Date(date).getFullYear();
+                                return `${yearValue} - ${monthValue} - ${dateValue}`;
+                            }
+                            document.write(getDate("<%=post.date%>"));
+                        </script>
+                    </label>
+                    <a href="#" class="blog-anchors"><%=post.title%></a>
+                <% }); %>
+                <% if(posts == 0){ %>
+                    <p class="text-white mx-3">No recent posts 😞</p>
+                <% } %>
+            </div>
+            <a name="skills"></a>
+            <div class="col-md-12">
+                <h3 class="font-weight-bold headings mx-3">Skills</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h6 class="mx-3 text-white font-weight-bold">Programming Languages</h6>
+                        <ul class="list text-white">
+                            <li>VanillaJS</li>
+                            <li>C#</li>
+                            <li>Node.js</li>
+                            <li>Dart</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="mx-3 text-white font-weight-bold">Databases</h6>
+                        <ul class="list text-white">
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Microsoft SQL</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="mx-3 text-white font-weight-bold">Version Control</h6>
+                        <ul class="list text-white">
+                            <li>Github</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="mx-3 text-white font-weight-bold">Operating Systems</h6>
+                        <ul class="list text-white">
+                            <li>Ubuntu</li>
+                            <li>Windows</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="mx-3 text-white font-weight-bold">Prototype Tools</h6>
+                        <ul class="list text-white">
+                            <li>Adobe XD</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a name="projects"></a>
+            <div class="col-md-12">
+                <h3 class="font-weight-bold headings mx-3">Projects</h3>
+                <ul class="list text-white">
+                    <li><a class="text-white" href="/localregex">localregex 1.0.0</a></li>
+                    <li><a class="text-white" href="/locator">Product Locator</a></li>
+                    <li><a class="text-white" href="https://github.com/flutterdevzim/CoVID-19-Tracker">CoVID-19-Tracker [Flutter Zimbabwe Community --> contribution]</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>

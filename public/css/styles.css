@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-body{
+    width: 55vw;
+}
+
+.brand-id{
+    transition: all .4s;
+}
+
+.brand-id:hover{
+    transform: scale(1.02);
+}
+
+.anchors{
+    color: aqua;
+    transition: all .4s;
+    text-decoration: underline;
+}
+
+.blog-anchors{
+    color: white;
+    transition: all .4s;
+    text-decoration: underline;
+}
+
+.blog-anchors:hover{
+    color: aqua;
+}
+
+.headings{
+    color: aqua;
+}
+
+@media(max-width: 768px){
+    .main-body{
+        width: 100vw;
+    }
+}
