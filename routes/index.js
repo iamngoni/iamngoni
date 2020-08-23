@@ -3,6 +3,7 @@ const cp = require('cookie-parser')
 const session = require('express-session')
 const flash = require('connect-flash')
 const Posts = require('./../models/posts')
+const HallOfFame = require('./../models/tiles')
 
 router.use(cp())
 router.use(session({ cookie: { maxAge: 60000 }, resave: true, saveUninitialized: false, secret: 'hitwo-api' }))
@@ -27,6 +28,21 @@ router.get('/locator', (req, res) => {
   res.render('productlocator', {
     title: 'iamngoni | Product Locator (Flutter)'
   })
+})
+
+router.get('/memory/get', async (req, res) => {
+  const people = await HallOfFame.find()
+  res.send(people)
+})
+
+router.post('/memory/save', async (req, res) => {
+  const {username, score} = req.body
+  const hof = new HallOfFame()
+  hof.username = username
+  hof.score = score
+  const person = await hof.save()
+  const people = await HallOfFame.find()
+  res.send(people)
 })
 
 // POST
