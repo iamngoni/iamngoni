@@ -31,8 +31,9 @@ router.get('/locator', (req, res) => {
 })
 
 router.get('/memory/get', async (req, res) => {
-  const people = await HallOfFame.find()
-  res.send(people)
+  var people = await HallOfFame.find()
+  people = people.sort((x, y) => y.score - x.score)
+  res.send(people.splice(0,10))
 })
 
 router.post('/memory/save', async (req, res) => {
@@ -41,8 +42,9 @@ router.post('/memory/save', async (req, res) => {
   hof.username = username
   hof.score = score
   const person = await hof.save()
-  const people = await HallOfFame.find()
-  res.send(people)
+  var people = await HallOfFame.find()
+  people = people.sort((x, y) => y.score - x.score)
+  res.send(people.splice(0,10))
 })
 
 // POST
