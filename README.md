@@ -2,7 +2,7 @@
 
 I am Ngonidzashe Mangudya, a software engineering student at Harare Institute of Technology. I'm a bit experienced in Node.js and Flutter, and 💯 interested in building backend services and robust architectures.
 
-- 🔭 I’m currently working on a Flutter Web Photo Gallery
+- 🔭 I’m currently working on a Team Collaboration Mobile App (Flutter)
 - 🌱 I’m currently learning Python (it's currently a "thing" 😂😂)
 - 👯 I’ve collaborated on a [Covid19 Statistics Mobile App](https://github.com/flutterdevzim/CoVID-19-Tracker) with [Flutter Zimbabwe Community](https://twitter.com/FlutterZimbabwe)
 - 💬 Ask me about anything Flutter or Node.js related
