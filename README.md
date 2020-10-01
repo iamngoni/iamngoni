@@ -13,3 +13,5 @@ I am Ngonidzashe Mangudya, a software engineering student at Harare Institute of
 - 📫 How to reach me: Via [Whatsapp](https://api.whatsapp.com/send?phone=263713700601) or [Call](tel:263777213388) or [Twitter](https://twitter.com/ngmangudya)
 - ⚡ Fun fact: I wanted to be a dentist but here I am ["Fluttering"](https://flutter.dev)
 - I have "published" a regex [dart package](https://pub.dev/packages/localregex) for use mostly by Zim devs
+
+<img align="center" alt="GIF" src="https://media.giphy.com/media/TilmLMmWrRYYHjLfub/giphy.gif" />
