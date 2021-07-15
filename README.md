@@ -10,4 +10,4 @@ I am Ngonidzashe Mangudya, a software engineering student at Harare Institute of
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iamngoni&show_icons=true&theme=tokyonight)
 
-[![iamngoni's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iamngoni)](https://github.com/anuraghazra/github-readme-stats)
+[![iamngoni's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iamngoni&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
