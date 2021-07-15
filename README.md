@@ -9,4 +9,5 @@ I am Ngonidzashe Mangudya, a software engineering student at Harare Institute of
 - 📫 How to reach me: Via [Whatsapp](https://api.whatsapp.com/send?phone=263713700601) or [Call](tel:263777213388) or [Twitter](https://twitter.com/iamngoni_)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iamngoni&show_icons=true&theme=tokyonight)
-)
+
+[![iamngoni's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iamngoni)](https://github.com/anuraghazra/github-readme-stats)
