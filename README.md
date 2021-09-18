@@ -1,6 +1,6 @@
 ### Hello human 😁
 
-I am Ngonidzashe Mangudya, a software engineering student at Harare Institute of Technology. I'm a bit experienced in Node.js and Flutter, and 💯 interested in building backend services and robust architectures.
+I am Ngonidzashe Mangudya, a software engineering student at Harare Institute of Technology. I'm an expirienced Flutter & Node.js Developer, and 💯 interested in building backend services and robust architectures.
 
 ![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=iamngoni&count_private=true&show_icons=true&theme=tokyonight)
 
