@@ -1,6 +1,6 @@
 ### Hello human �
 
-I am Ngonidzashe Mangudya, a software engineering student at Harare Institute of Technology. I'm an experienced Flutter mobile developer, and 💯 interested in building backend services and robust architectures.
+I am Ngonidzashe Mangudya, a final year Software Engineering student at Harare Institute of Technology. I'm an experienced Flutter Mobile Developer, and 💯 interested in building backend services and robust architectures.
 
 - 👯 A member of [Flutter Zimbabwe community](https://github.com/flutterdevzim/). [Twitter](https://twitter.com/FlutterZimbabwe)
 - 💬 Ask me about anything Flutter, Node.js, Python Django, or PHP Laravel related
