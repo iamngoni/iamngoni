@@ -1,17 +1,12 @@
-### Hello human �
-
-I am Ngonidzashe Mangudya, a final year Software Engineering student at Harare Institute of Technology. I'm an experienced Flutter Engineer, and interested in building backend services and robust architectures.
-
-- 👯 A member of [Flutter Zimbabwe community](https://github.com/flutterdevzim/). [Twitter](https://twitter.com/FlutterZimbabwe)
-- 📫 How to reach me: Via [Whatsapp](https://api.whatsapp.com/send?phone=263777213388) or [Call](tel:263777213388) or [Twitter](https://twitter.com/iamngoni_)
-
----
-
 <!--Title @iamngoni-->
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00b3ff&size=35&center=true&vCenter=true&width=1000&lines=HI👋;I'm+from+Zimbabwe;I'm+24+years+old;Welcome!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00b3ff&size=35&center=true&vCenter=true&width=1000&lines=HI👋;I am Ngonidzashe Mangudya, a final year Software Engineering student at Harare Institute of Technology;I'm+24+years+old;I'm an experienced Flutter Engineer, and interested in building backend services and robust architectures;Welcome!)
 
 <!--Graph-->
 ![Ngonidzashe's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=iamngoni&bg_color=0d1117&color=ffffff&line=00b3ff&point=f9fafa&area=true&hide_border=true)
+
+---
+
+- I'm a member of [Flutter Zimbabwe community](https://github.com/flutterdevzim/). [Twitter](https://twitter.com/FlutterZimbabwe)
 
 ---
 
