@@ -1,5 +1,5 @@
 <!--Title @iamngoni-->
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00b3ff&size=35&center=true&vCenter=true&width=1000&lines=HI👋;I%20am%20Ngonidzashe%20Mangudya!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00b3ff&size=35&center=true&vCenter=true&width=1000&lines=HI👋;I%20am%20Ngonidzashe%20Mangudya,%20a%20final%20year%20Software%20Engineering%20student%20at%20Harare%20Institute%20of%20Technology;I'm%2024%20years%20old;I'm%20an%20experienced%20Flutter%2Developer,%20and%20interested%20in%20building%20backend%20services%20and%20robust%20architectures;Welcome!)
 
 <!--Graph-->
 ![Ngonidzashe's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=iamngoni&bg_color=0d1117&color=ffffff&line=00b3ff&point=f9fafa&area=true&hide_border=true)
