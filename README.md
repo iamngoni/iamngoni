@@ -1,5 +1,5 @@
 <!--Title @iamngoni-->
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00b3ff&size=35&center=true&vCenter=true&width=1000&lines=HI👋;I am Ngonidzashe Mangudya!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00b3ff&size=35&center=true&vCenter=true&width=1000&lines=HI👋;I%20am Ngonidzashe%20Mangudya!)
 
 <!--Graph-->
 ![Ngonidzashe's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=iamngoni&bg_color=0d1117&color=ffffff&line=00b3ff&point=f9fafa&area=true&hide_border=true)
