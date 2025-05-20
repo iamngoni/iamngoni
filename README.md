@@ -10,7 +10,7 @@
 
 ---
 
-B.Tech Hon Software Engineering graduate from Harare Institute of Technology, Zimbabwe 🇿🇼. Passionate about crafting elegant and efficient solutions, especially in the Dart/Flutter ecosystem. Co-founder of [ModestNerds](https://www.modestnerds.co), where we're making tech accessible and impactful.
+B.Tech Hon Software Engineering graduate from Harare Institute of Technology, Zimbabwe 🇿🇼. Passionate about crafting elegant and efficient solutions, especially in the Dart/Flutter ecosystem. Co-founder of [Codecraft Solutions](https://www.codecraftsolutions.co.za), where we're making tech accessible and impactful.
 
 💡 **I love building developer tools on the side** that make development workflows smoother and more efficient.
 
