@@ -7,6 +7,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/iamngoni?style=social)](https://x.com/iamngoni)
 [![GitHub followers](https://img.shields.io/github/followers/iamngoni?style=social)](https://github.com/iamngoni)
 [![wakatime](https://wakatime.com/badge/user/c0cf4283-a9c5-4c2b-b11a-ab0fff109b96.svg)](https://wakatime.com/@c0cf4283-a9c5-4c2b-b11a-ab0fff109b96)
+![Profile Views](https://komarev.com/ghpvc/?username=iamngoni&color=blue)
 
 ---
 
@@ -60,13 +61,3 @@ B.Tech Hon Software Engineering graduate from Harare Institute of Technology, Zi
 <figure>
   <img src="https://wakatime.com/share/@iamngoni/a9081d55-0d50-4250-b917-32cf339885a9.svg" alt="Wakatime stats" />
 </figure>
-
-### 📫 Connect With Me
-
-[X](https://x.com/iamngoni_)
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=iamngoni&color=blue" alt="Profile views" />
-</p>
