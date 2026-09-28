@@ -29,9 +29,9 @@
 
 ## Currently
 
-- Building Rust systems tooling: agent orchestration, security scanning, terminal workflows, and homelab infrastructure
-- Shipping Apple ecosystem products (Sipmate, Pastr) with SwiftUI
-- Exploring AI agent interoperability through MCP servers and ACP bridges
+- Building Rust systems: autonomous trading infrastructure, self-hosted CI runner orchestration, security scanning, and homelab tooling
+- Shipping native Apple products with SwiftUI: Sipmate, Pastr, and a growing set of macOS utilities
+- Building AI agent tooling: MCP servers, shared context between coding agents, persistent agent sessions, and agent skills
 
 ## About Me
 
@@ -57,7 +57,7 @@ My work spans the full software lifecycle: requirements gathering, system design
 - **Local-authority systems**: built ERP modules and supporting applications for GIS mapping, housing, billing, and benchmarking workflows.
 - **Commercial product work**: delivered customer-facing mobile and web applications in areas including finance, agriculture, therapy, e-commerce, food delivery, and AI-enabled consumer apps.
 - **Platform and integration work**: built backend services, chat systems, SMS and email gateways, and real-time integrations around existing business systems.
-- **Rust systems work**: a large part of my current side-project and tools portfolio is in Rust, spanning CLIs, AI tooling, terminal workflows, homelab dashboards, monitoring tools, scanners, bridges, and high-performance utilities.
+- **Rust systems work**: a large part of my current side-project and tools portfolio is in Rust, spanning trading systems, CI infrastructure, CLIs, AI tooling, terminal workflows, homelab dashboards, monitoring tools, scanners, bridges, and high-performance utilities.
 
 ## Selected Product Work
 
@@ -78,23 +78,37 @@ Some of the product work I have built or contributed to includes:
 
 ### Rust Systems And Tooling
 
-- [dare](https://github.com/iamngoni/dare) - multi-agent orchestration for OpenClaw and Claude-style agent workflows
-- [memorai](https://github.com/iamngoni/memorai) - local-first AI memory system with semantic search
+- [veyra](https://github.com/iamngoni/veyra) - autonomous, provider-neutral trading service where every trading decision passes a deterministic risk gate before an MT4 order is placed, with an operations console
+- [gridops](https://github.com/iamngoni/gridops) - self-hosted control plane for provisioning, autoscaling, and observing GitHub Actions runners
+- [heimdall](https://github.com/iamngoni/heimdall) - agentic, context-aware security scanner for source code repositories
+- [wintosh](https://github.com/iamngoni/wintosh) - create bootable Windows installation drives on macOS, built with Rust and gpui
+- [Pullbox](https://github.com/iamngoni/Pullbox) - private SwiftUI media downloader with a Rust and Actix Web backend
+- [shop_pilot](https://github.com/iamngoni/shop_pilot) - buy groceries by chat: a Telegram and WhatsApp cart-building assistant for South African grocery stores, running on Cloudflare Workers
 - [nexus](https://github.com/iamngoni/nexus) - homelab dashboard built with Rust, Actix Web, HTMX, and Tailwind
+- [memorai](https://github.com/iamngoni/memorai) - local-first AI memory system with semantic search, built on SurrealDB
+- [dare](https://github.com/iamngoni/dare) - multi-agent orchestration for OpenClaw and Claude-style agent workflows
 - [bitbucket-cli](https://github.com/iamngoni/bitbucket-cli) - command-line tooling for Bitbucket workflows
-- `heimdall` - agentic, context-aware security scanner for source code repositories
 - `zq` - AI-integrated terminal emulator
 - `tglogs` - high-performance log inspector
 - `kompressor` - standalone media transcoding service
 - `amazon_q_acp` - ACP bridge for Amazon Q integration
 - `icsturnstile` - Cloudflare Turnstile verification service built in Rust
 
+### AI Agent Tooling
+
+- [mimir](https://github.com/iamngoni/mimir) - MCP server for sharing session context between AI coding agents such as Claude Code and Codex
+- [agentmux](https://github.com/iamngoni/agentmux) - persistent, steerable sessions for AI agents
+- [mac-computer-use](https://github.com/iamngoni/mac-computer-use) - native macOS computer-use server over MCP: one Swift binary that lets an AI agent control any Mac app, with a followable cursor overlay
+- [store-screenshot-mockups](https://github.com/iamngoni/store-screenshot-mockups) - agent skill for creating App Store screenshot mockups
+- [actuate](https://github.com/iamngoni/actuate) - agent skills for UI work
+- [pdf-reader-mcp](https://github.com/iamngoni/pdf-reader-mcp) - MCP-based PDF reading tooling for editor workflows
+- `claude-agent-acp`, `claude-code-acp`, and related ACP bridges - experiments around agent and editor interoperability
+
 ### Developer Tools
 
 - [gitwhisper](https://github.com/iamngoni/gitwhisper) - AI-powered Git commit message generator with a CLI, website, Homebrew tap, and APT packaging
 - [redis-watch](https://github.com/iamngoni/redis-watch) - visual Redis instance management
-- [pdf-reader-mcp](https://github.com/iamngoni/pdf-reader-mcp) - MCP-based PDF reading tooling for editor workflows
-- `claude-agent-acp`, `claude-code-acp`, and related ACP bridges - experiments around agent and editor interoperability
+- [media-server](https://github.com/iamngoni/media-server) - Docker setup for my home media server
 
 ### Dart And Flutter Packages
 
@@ -102,24 +116,26 @@ Some of the product work I have built or contributed to includes:
 - [localregex](https://pub.dev/packages/localregex) - Zimbabwe-focused regex patterns for phone numbers, passports, license plates, and more
 - [handy_extensions](https://pub.dev/packages/handy_extensions) - quality-of-life extensions for everyday Dart development
 - [pesepay](https://pub.dev/packages/pesepay) - Dart package for integrating the Pesepay payment gateway
+- [ecocash](https://github.com/iamngoni/ecocash) - Dart SDK for Ecocash payments, covering instant payments, transaction lookup, and refunds
 - [vamboai](https://pub.dev/packages/vamboai) - Dart SDK for language identification and translation with Vambo AI
 - [rope](https://pub.dev/packages/rope) - immutable rope data structure in Dart for large-scale text manipulation
 - [wa_me](https://pub.dev/packages/wa_me) - share messages, links, or files from Flutter directly to WhatsApp contacts
 
 ### Swift And macOS Work
 
-- [WhatTheLoad](https://github.com/iamngoni/WhatTheLoad) - Swift app for checking load-shedding schedules
 - [Montr](https://github.com/iamngoni/Montr-Control-Your-Displays) - Swift utility for controlling displays on macOS
-- [finny](https://github.com/iamngoni/finny) - Swift project currently under active exploration
+- [Keel](https://github.com/iamngoni/Keel) - lightweight native macOS Docker client for existing Docker Engine runtimes
+- [kanso](https://github.com/iamngoni/kanso) - Markdown note-taking app
+- [WhatTheLoad](https://github.com/iamngoni/WhatTheLoad) - Swift app for checking load-shedding schedules
 
 There is more in the [repositories list](https://github.com/iamngoni?tab=repositories), but these are the projects that best reflect the range of what I build.
 
 ## Stack
 
 - **Languages**: Dart, Rust, JavaScript, TypeScript, Python, PHP, Go, Swift
-- **Frameworks and platforms**: Flutter, SwiftUI, Django, FastAPI, Node.js, React, Vue, Laravel, Actix Web, HTMX, Tailwind
-- **AI and tooling**: Claude, OpenAI, agent orchestration, MCP servers, ACP bridges, semantic search
-- **Data and infra**: PostgreSQL, MySQL, MongoDB, Firebase, Appwrite, Docker, CI/CD, automation
+- **Frameworks and platforms**: Flutter, SwiftUI, Django, FastAPI, Node.js, React, TanStack Start, Vue, Laravel, Actix Web, gpui, HTMX, Tailwind
+- **AI and tooling**: Claude, OpenAI, agent orchestration, MCP servers, ACP bridges, agent skills, semantic search
+- **Data and infra**: PostgreSQL, MySQL, MongoDB, SurrealDB, Firebase, Appwrite, Cloudflare Workers, Docker, GitHub Actions, CI/CD, automation
 - **Working style**: product-minded engineering, strong delivery focus, and comfort across frontend, backend, mobile, internal tooling, and systems work
 - **Languages I speak**: Shona, English, and a bit of Xhosa
 
