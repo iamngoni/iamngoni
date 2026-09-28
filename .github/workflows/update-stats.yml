@@ -5,7 +5,7 @@ on:
     - cron: "17 3 * * *"
   workflow_dispatch:
   push:
-    branches: [master, claude/zen-heisenberg-xizelk]
+    branches: [master]
     paths:
       - .github/workflows/update-stats.yml
 
