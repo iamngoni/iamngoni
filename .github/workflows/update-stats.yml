@@ -1,0 +1,41 @@
+name: Update stats card
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/update-stats.yml
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&bg_color=0D1117&border_radius=10&hide_title=true&text_color=FFFFFF&icon_color=296ECA
+          path: profile/stats.svg
+          # Add a STATS_TOKEN secret (PAT with repo and read:user scopes) to include private repo stats.
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Commit updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: 🔧 Update GitHub stats card"
+          git push
