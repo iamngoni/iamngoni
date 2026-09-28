@@ -114,7 +114,18 @@ My work spans the full software lifecycle: requirements gathering, system design
 
 ### Contributions
 
-- [zed-industries/zed#39537](https://github.com/zed-industries/zed/pull/39537) - fixed terminal split panes in the Zed editor opening in the root directory instead of the current working directory (merged)
+Merged pull requests to projects I don't own:
+
+- [zed-industries/zed#39537](https://github.com/zed-industries/zed/pull/39537) - fixed terminal split panes in the Zed editor opening in the root directory instead of the current working directory
+- [zed-industries/extensions#2257](https://github.com/zed-industries/extensions/pull/2257) - published my [Emerald Night](https://github.com/iamngoni/emerald-night-theme) theme to the Zed extensions registry, later updated in [#2700](https://github.com/zed-industries/extensions/pull/2700)
+- [cfug/dio#1673](https://github.com/cfug/dio/pull/1673) - fixed the docs footer for dio, the popular Dart HTTP client
+- [ignertic/paynow](https://github.com/ignertic/paynow) - Paynow Zimbabwe Dart SDK: added InnBucks and PayGo support ([#19](https://github.com/ignertic/paynow/pull/19)) and fixed rounding of exponential amounts ([#20](https://github.com/ignertic/paynow/pull/20))
+- [gtchakama/wa-tui](https://github.com/gtchakama/wa-tui) - WhatsApp terminal UI: built the chat UI ([#3](https://github.com/gtchakama/wa-tui/pull/3)), improved rendering, search, boot, and emoji handling ([#5](https://github.com/gtchakama/wa-tui/pull/5)), fixed browser installation ([#34](https://github.com/gtchakama/wa-tui/pull/34)), and shipped UX improvements ([#35](https://github.com/gtchakama/wa-tui/pull/35))
+- [gtchakama/lockr#4](https://github.com/gtchakama/lockr/pull/4) - added a `run` command that launches processes with injected secrets
+- [DonnC/docxtpl#10](https://github.com/DonnC/docxtpl/pull/10) - upgraded the docxtpl Dart package to Dart 3
+- [DonnC/hot-recharge-flutter](https://github.com/DonnC/hot-recharge-flutter) - migrated the Hot Recharge SDK to dio ([#4](https://github.com/DonnC/hot-recharge-flutter/pull/4)) and added end-user balance support ([#3](https://github.com/DonnC/hot-recharge-flutter/pull/3))
+- [DonnC/bulksmszw#1](https://github.com/DonnC/bulksmszw/pull/1) - migrated the BulkSMS Zimbabwe package to null safety
+- [flutterdevzim/CoVID-19-Tracker](https://github.com/flutterdevzim/CoVID-19-Tracker/pulls?q=is%3Apr+author%3Aiamngoni+is%3Amerged) - Flutter Zimbabwe community COVID-19 tracker: statistics features, homepage graph, and tracked-figures UI across 8 merged PRs
 
 ### Rust Systems And Tooling
 
