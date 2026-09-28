@@ -50,7 +50,7 @@ Products I have built and shipped:
 
 ## About Me
 
-I'm a software engineer based in Harare, Zimbabwe, and a B.Tech Honours Software Engineering graduate from the Harare Institute of Technology.
+I'm a software engineer based in Africa, working across Zimbabwe, Ethiopia, South Africa, and more to come, and a B.Tech Honours Software Engineering graduate from the Harare Institute of Technology.
 
 I co-founded [Codecraft Solutions](https://codecraftsolutions.co.za), where we build software with a bias toward clarity, speed, and practical outcomes.
 
@@ -153,7 +153,7 @@ There is more in the [repositories list](https://github.com/iamngoni?tab=reposit
 ## Stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=iamngoni&show_icons=true&count_private=true&bg_color=0D1117&border_radius=10&hide_title=true&text_color=FFFFFF&icon_color=296ECA" alt="Ngonidzashe's GitHub Stats" />
+  <img src="profile/stats.svg" alt="Ngonidzashe's GitHub Stats" />
 </p>
 
 ## Weekly Development Breakdown
