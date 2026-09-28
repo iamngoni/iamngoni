@@ -65,29 +65,56 @@ My work spans the full software lifecycle: requirements gathering, system design
 - Mobile, desktop, and web applications built to support day-to-day operations
 - Rust tooling, AI-assisted workflows, automation, and infrastructure projects on the side
 
-## Experience Snapshot
+## Experience
 
-- **Government platforms**: contributed to secure public-sector identity and document systems, including rollout support, reusable components, and stakeholder-facing delivery.
-- **Hospitality and resort software**: worked on guest-facing and operational experiences backed by existing service platforms, covering reservations, travel details, check-in style flows, and location-based integrations.
-- **Local-authority systems**: built ERP modules and supporting applications for GIS mapping, housing, billing, and benchmarking workflows.
-- **Commercial product work**: delivered customer-facing mobile and web applications in areas including finance, agriculture, therapy, e-commerce, food delivery, and AI-enabled consumer apps.
-- **Platform and integration work**: built backend services, chat systems, SMS and email gateways, and real-time integrations around existing business systems.
-- **Rust systems work**: a large part of my current side-project and tools portfolio is in Rust, spanning trading systems, CI infrastructure, CLIs, AI tooling, terminal workflows, homelab dashboards, monitoring tools, scanners, bridges, and high-performance utilities.
+**Software Engineer · TOPPAN Security** (Contract · Apr 2024 - Present · Ethiopia, Namibia, South Africa, Japan)
 
-## Client Product Work
+- Delivered Ethiopia's first locally manufactured, ICAO-compliant ePassport and digital visa system, now in nationwide use
+- Contributing to election and national ID biometrics, including voter registration and verification work around Namibia's 2024 general elections
+- Led mobile biometrics hardware integrations on Android (fingerprint, face, iris, signature) with Flutter and Kotlin/Java SDKs, plus offline-capable tooling for embassy operations
+- Part of the platform modernisation from .NET and Flutter towards Java microservices and modern web architecture
 
-Client products I have built or contributed to include:
+**Software Developer · Merlin Software for Vacation Ownership (QuickMerlin)** (Contract · Jul 2023 - Present · South Africa, Malaysia, Remote)
 
-- **Top Farmer** - expense tracking platform for web, Android, and iOS
-- **Bookhuru** - meditation and accommodation platform
-- **Hekima** - online therapy platform
-- **Tumai Mobile** - bill payments and remittance app
-- **Fresh In A Box** - e-commerce app
-- **Munch Zimbabwe** - food delivery app
-- **Zivai** - ChatGPT-powered mobile app
-- **African Folktales** - interactive AI storytelling experience
+- Modernising legacy ASP.NET, WCF, and SOAP services into REST APIs across reservations, owner management, levies, accounting, and sales contracts
+- Building companion Flutter apps for housekeeping, maintenance, and guest services, with offline resilience and real-time sync to the .NET core
+
+**Mobile and Backend Engineer · AfricAi Project** (Part-time · May 2023 - Aug 2023 · Johannesburg, Remote)
+
+- Architected ZivAi by DanAi.chat, a mobile app bringing ChatGPT to communities with limited access, with offline-friendly UX and low-bandwidth optimisations
+- Led the payments platform for ZivAi credits across Stripe, Paynow, and DPO, covering subscriptions, entitlements, and webhook automation
+- Built African Folktales, a GPT-4 powered infinite colouring book that preserves African storytelling for families
+
+**Freelancer · AfriBlocks and ModestNerds** (Freelance · Jan 2022 - Nov 2023 · Harare, Remote)
+
+- Shipped 0 to 1 products for startups and SMEs, including [Top Farmer](https://topfarmer.africa), an expense tracking platform for farmers; [Bookhuru](https://bookhuru.space), a meditation and accommodation discovery platform; and Hekima, an online therapy platform
+
+**Software Developer · Intelli Africa Solutions** (Full-time · Oct 2021 - Jun 2022 · Harare)
+
+- Led Flutter architecture for Tumai Mobile, a bill payments and remittance app, and integrated with Zimswitch, the national payment switch
+- Re-engineered a high-volume SMS and email gateway with Econet and NetOne, built real-time web chat on WebSockets, and improved the reliability of a WhatsApp chatbot for ZB Bank
+
+**Mobile Application Developer · Fresh Ideas Studio** (Contract · Apr 2021 - Dec 2021 · Harare, Remote)
+
+- Led five companion e-commerce apps, including Fresh In A Box and Munch Zimbabwe, and migrated them from React Native WebViews to Flutter
+
+**Software Developer · LADS Africa** (Full-time · Sep 2020 - Oct 2021 · Harare)
+
+- Single-handedly delivered the UNDP-sponsored Service Level Benchmarking platform, which automates real-time collection and aggregation of service delivery data across Zimbabwe's local authorities, with reports by province and urban or rural class ([featured by UNDP Zimbabwe](https://www.undp.org/zimbabwe/blog/new-technology-tool-service-delivery-benchmarking))
+- Built core ERP modules (finance, billing, HR) for city councils, plus GIS mapping, housing, and water billing field apps, and led the ERP upgrade to Laravel 8 and Livewire
+
+## Featured In
+
+- [New technology tool for service delivery benchmarking](https://www.undp.org/zimbabwe/blog/new-technology-tool-service-delivery-benchmarking) - UNDP Zimbabwe on the Service Level Benchmarking platform I delivered at LADS Africa
+- [Meet the Zimbabwean AI chatbot offering an alternative to ChatGPT](https://techcabal.com/2023/06/05/kuda-musasiwa-interview-zivai/) - TechCabal on ZivAi
+- [Have You Heard About ZivAI? Here Is What You Need To Know](https://startupbiz.co.zw/have-you-heard-about-zivai/) - StartupBiz Zimbabwe on ZivAi
+- [Of DanAI: The AfricAI Project](https://becomingthemuse.net/2023/06/22/danai-the-africai-project/) - Becoming The Muse on DanAI and the AfricAi Project
 
 ## Open Source And Side Projects
+
+### Contributions
+
+- [zed-industries/zed#39537](https://github.com/zed-industries/zed/pull/39537) - fixed terminal split panes in the Zed editor opening in the root directory instead of the current working directory (merged)
 
 ### Rust Systems And Tooling
 
