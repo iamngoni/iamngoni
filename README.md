@@ -9,6 +9,8 @@
 </p>
 
 <p align="center">
+  <a href="https://iamngoni.dev">Website</a>
+  ·
   <a href="https://www.linkedin.com/in/ngonidzashe-mangudya-ba084a174">LinkedIn</a>
   ·
   <a href="https://codecraftsolutions.co.za">Codecraft Solutions</a>
@@ -29,9 +31,22 @@
 
 ## Currently
 
+- Building Rerout, branded link infrastructure on the Cloudflare edge
+- Shipping consumer apps across iPhone, Apple Watch, Mac, and Android: Otis, Sipmate, Pastr, Pushlog, and a growing set of macOS utilities
 - Building Rust systems: autonomous trading infrastructure, self-hosted CI runner orchestration, security scanning, and homelab tooling
-- Shipping native Apple products with SwiftUI: Sipmate, Pastr, and a growing set of macOS utilities
 - Building AI agent tooling: MCP servers, shared context between coding agents, persistent agent sessions, and agent skills
+
+## Products
+
+Products I have built and shipped:
+
+- [Rerout](https://rerout.co/) - branded link infrastructure on the Cloudflare edge: verified custom domains, programmable short links, QR campaigns, social previews, privacy-friendly analytics, signed webhooks, and official SDKs, including a [Rust crate](https://crates.io/crates/rerout).
+- [Otis](https://apps.apple.com/us/app/otis-a-friend-to-your-stocks/id6766045265) - a calm, private view of your stocks, ETFs, crypto, and dividends. Track holdings across portfolios, keep a ledger of buys, sells, dividends, fees, and splits, and get dividend reminders and a weekly recap. On the App Store.
+- [Sipmate](https://sipmate.iamngoni.dev/) - mindful drink tracking app for iPhone, iPad, and Apple Watch, with streaks, insights, achievements, and a privacy-first experience. On the [App Store](https://apps.apple.com/za/app/sipmate/id6756241072).
+- [Pastr](https://pastr.iamngoni.dev/) - lightweight clipboard history manager for macOS with instant search, pinned items, iCloud sync, and a strong privacy-first design. On the [Mac App Store](https://apps.apple.com/us/app/pastr/id6757497760?mt=12) and [Product Hunt](https://www.producthunt.com/products/pastr-2?utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-pastr-2), with source on [GitHub](https://github.com/iamngoni/Pastr).
+- [Pushlog](https://pushlog.iamngoni.dev/) - simple push-up training that plans your week, records every set, and tracks streaks and progress across iPhone, Apple Watch, Android, and Wear OS.
+- [Montr](https://montr.iamngoni.dev/) - macOS menu bar app for controlling brightness, color temperature, and display profiles across built-in and external monitors. Source on [GitHub](https://github.com/iamngoni/Montr-Control-Your-Displays).
+- [GitWhisper](https://iamngoni.github.io/gitwhisper/) - AI-powered Git commit message generator with a CLI, Homebrew tap, and APT packaging. Source on [GitHub](https://github.com/iamngoni/gitwhisper) and published on [pub.dev](https://pub.dev/packages/gitwhisper).
 
 ## About Me
 
@@ -59,12 +74,10 @@ My work spans the full software lifecycle: requirements gathering, system design
 - **Platform and integration work**: built backend services, chat systems, SMS and email gateways, and real-time integrations around existing business systems.
 - **Rust systems work**: a large part of my current side-project and tools portfolio is in Rust, spanning trading systems, CI infrastructure, CLIs, AI tooling, terminal workflows, homelab dashboards, monitoring tools, scanners, bridges, and high-performance utilities.
 
-## Selected Product Work
+## Client Product Work
 
-Some of the product work I have built or contributed to includes:
+Client products I have built or contributed to include:
 
-- [Sipmate](https://sipmate.iamngoni.dev/) - mindful drink tracking app for iPhone, iPad, and Apple Watch, with streaks, insights, achievements, and a privacy-first experience. Also on the [App Store](https://apps.apple.com/za/app/sipmate/id6756241072).
-- [Pastr](https://pastr.iamngoni.dev/) - lightweight clipboard history manager for macOS with instant search, pinned items, iCloud sync, and a strong privacy-first design. Also on [Product Hunt](https://www.producthunt.com/products/pastr-2?utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-pastr-2).
 - **Top Farmer** - expense tracking platform for web, Android, and iOS
 - **Bookhuru** - meditation and accommodation platform
 - **Hekima** - online therapy platform
@@ -106,7 +119,6 @@ Some of the product work I have built or contributed to includes:
 
 ### Developer Tools
 
-- [gitwhisper](https://github.com/iamngoni/gitwhisper) - AI-powered Git commit message generator with a CLI, website, Homebrew tap, and APT packaging
 - [redis-watch](https://github.com/iamngoni/redis-watch) - visual Redis instance management
 - [media-server](https://github.com/iamngoni/media-server) - Docker setup for my home media server
 
@@ -123,10 +135,9 @@ Some of the product work I have built or contributed to includes:
 
 ### Swift And macOS Work
 
-- [Montr](https://github.com/iamngoni/Montr-Control-Your-Displays) - Swift utility for controlling displays on macOS
 - [Keel](https://github.com/iamngoni/Keel) - lightweight native macOS Docker client for existing Docker Engine runtimes
+- [WhatTheLoad](https://github.com/iamngoni/WhatTheLoad) - macOS menu bar diagnostics app covering network throughput, CPU, memory, Wi-Fi, disk, processes, and battery
 - [kanso](https://github.com/iamngoni/kanso) - Markdown note-taking app
-- [WhatTheLoad](https://github.com/iamngoni/WhatTheLoad) - Swift app for checking load-shedding schedules
 
 There is more in the [repositories list](https://github.com/iamngoni?tab=repositories), but these are the projects that best reflect the range of what I build.
 
