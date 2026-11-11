@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Ngonidzashe Mangudya&#39;s GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 353, Total Commits  (last year) : 3360, Total PRs: 602, Total Issues: 210, Contributed to (last year): 12</desc>
+        <desc id="descId">Total Stars Earned: 353, Total Commits  (last year) : 3380, Total PRs: 607, Total Issues: 210, Contributed to (last year): 12</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 13.180768370933762;
+        stroke-dashoffset: 13.183069387306007;
       }
     }
   
@@ -185,7 +185,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >602</text>
+      >607</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
